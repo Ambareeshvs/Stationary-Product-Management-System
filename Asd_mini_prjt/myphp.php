@@ -18,7 +18,7 @@ require 'dbconfig/config.php';
           margin-top: 0px;
           width: 100%;
           margin: 8px 0;
-        
+
         }
       .login-box input {
           width: 100%;
@@ -71,15 +71,11 @@ require 'dbconfig/config.php';
                   <div class="pbut">
                   <a class="btn btn-secondary" href="./intro.html" type="submit">Back</a>
                 </div>
-                    </center>
-
-
-
-
-
+              </center>
             </form>
           </div>
         </div>
+        
     <?php
         if(isset($_POST['insert_btn'])){
           //echo "<script type = "text/javascript">Alert("Insert Clicked")</script>"
